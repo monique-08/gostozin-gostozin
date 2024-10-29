@@ -1,0 +1,53 @@
+body {
+    color: rgb(145, 52, 24);
+    background: rgb(253, 252, 252);
+    margin: 5px;
+    font-family: "Playwrite GB S", cursive;
+    margin-bottom: 100px;
+}<header> Gostozin Gostozin =  font-family: "Playwrite GB S", serif; </header>
+{ expcted css(css-lcurlyexpected)}
+
+header {
+    border-left: solid 8px rgb(247, 101, 34);
+    padding: 20px;
+    font-size: 27px;
+    color: rgb(255, 42, 5);
+}
+
+.chamada{
+    background: rgb(243, 223, 194);
+    margin: 7px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 10%;
+}
+
+
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(238, 23, 23)
+}
+
+.categoria h2 {
+    color: rgb(42, 122, 228);
+}
